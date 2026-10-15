@@ -92,7 +92,9 @@ Then:
   `answer-engine-content`, `on-page-seo`, `technical-seo-audit`).
 
 With `--site`, add a per-page table (url · score · top fix) and a site-level section for
-`robots.txt`, `llms.txt` and the sitemap.
+`robots.txt`, `llms.txt` and the sitemap. When the `geo-page-auditor` subagent is available
+(it ships with this plugin), run one instance per page in parallel and merge their blocks;
+otherwise audit the pages in sequence with the same rubric.
 
 ## Guardrails
 

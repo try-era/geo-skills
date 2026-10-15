@@ -12,7 +12,7 @@ skills/<skill-name>/
 ```
 
 - One directory per skill, `kebab-case`, same string as the `name` in the frontmatter.
-- `SKILL.md` is 120–260 lines. Anything longer belongs in `references/` and is loaded only
+- `SKILL.md` is 100–260 lines. Anything longer belongs in `references/` and is loaded only
   when the step needs it — Claude reads SKILL.md in full every time the skill triggers,
   so keep it lean.
 - Every skill is **self-contained**: it must work when copied alone into

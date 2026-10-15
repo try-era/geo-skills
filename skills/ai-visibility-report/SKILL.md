@@ -50,7 +50,9 @@ outreach (`citation-sources`), or a page audit (`geo-audit`).
    the engine that moved (`list_answers` filtered by `provider`, and by `date_from` /
    `date_to`), open three to five with `get_answer`, and say what the engine did
    differently: a competitor it started naming, a source it started citing, a question it
-   now answers without brands at all.
+   now answers without brands at all. For more than five answers, hand the ids to the
+   `answer-evidence-reader` subagent (ships with this plugin) and use its digest, so the
+   full answer texts never crowd the report.
 8. **Charts** (when the client renders them): `chart_brand_dashboard`,
    `chart_brand_visibility`, `chart_share_of_voice`, `chart_sentiment`. Put them after the
    summary, not before.
