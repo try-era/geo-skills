@@ -1,0 +1,32 @@
+{
+  "name": "era-geo",
+  "version": "0.1.0",
+  "description": "GEO (Generative Engine Optimization) and SEO skills for Claude Code, by Era. Audit how AI answer engines see a site, pull AI-visibility and share-of-voice data from Era, research AI-search keywords, write citable content, and run the Era content calendar — 14 skills plus a router.",
+  "author": {
+    "name": "Era",
+    "url": "https://tryera.ai"
+  },
+  "license": "MIT",
+  "homepage": "https://tryera.ai",
+  "repository": "https://github.com/try-era/geo-skills",
+  "keywords": [
+    "geo",
+    "generative-engine-optimization",
+    "aeo",
+    "ai-search",
+    "ai-visibility",
+    "share-of-voice",
+    "citations",
+    "llms-txt",
+    "seo",
+    "technical-seo",
+    "schema-markup",
+    "content-marketing",
+    "keyword-research",
+    "chatgpt",
+    "perplexity",
+    "gemini",
+    "era",
+    "mcp"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "era": {
+      "type": "http",
+      "url": "https://app.tryera.ai/api/mcp"
+    }
+  }
+}

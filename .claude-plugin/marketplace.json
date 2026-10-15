@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "try-era",
+  "owner": {
+    "name": "Era",
+    "url": "https://tryera.ai"
+  },
+  "metadata": {
+    "description": "Era's GEO and SEO skills for Claude Code: AI-visibility reporting, competitor gaps, citation sources, AI-search keyword research, citable content, llms.txt, GEO and technical audits, schema markup, and the Era content calendar."
+  },
+  "plugins": [
+    {
+      "name": "era-geo",
+      "source": "./",
+      "description": "14 GEO/SEO skills plus a router. Data-backed skills read Era through the bundled MCP server (OAuth sign-in, no key to copy); audit and writing skills work on any site.",
+      "author": {
+        "name": "Era",
+        "url": "https://tryera.ai"
+      },
+      "category": "marketing",
+      "homepage": "https://tryera.ai",
+      "keywords": ["geo", "aeo", "ai-search", "seo", "content", "era"]
+    }
+  ]
+}
